@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #0a22f4;
+}
+
+.form-fields input,
+textarea {
+  width: 463px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 40px;
+  border-bottom: 1px solid white;
+}
+
+textarea {
+  resize: none;
+  display: block;
+}
+
+footer .kontakti {
+  padding-top: 275px;
+  margin-left: 240px;
+  width: 162px;
+  height: 38px;
+  color: #ffffff;
+}
+
+.loremi {
+  margin-top: 50px;
+  margin-left: 240px;
+  width: 463px;
+  color: #ffffff;
+}
+
+iframe {
+  width: 463px;
+  height: 197px;
+  margin-top: 60px;
+  margin-left: 240px;
+}
+
+footer .forms {
+  height: 300px;
+  display: inline-block;
+  margin-left: 500px;
+}
+
+.gilaki {
+  width: 151px;
+  height: 55px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #171717;
+}
