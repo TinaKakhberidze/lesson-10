@@ -23,6 +23,8 @@ footer {
 }
 
 .form-fields input {
+  font-size: 16px;
+  font-family: "BPG Glaho Arial", sans-serif;
   width: 463px;
   height: 60px;
   background-color: transparent;
@@ -32,6 +34,8 @@ footer {
 }
 
 .form-fields textarea {
+  font-size: 16px;
+  font-family: "BPG Glaho Arial", sans-serif;
   width: 463px;
   height: 140px;
   background-color: transparent;
@@ -49,9 +53,12 @@ footer .kontakti {
   width: 162px;
   height: 38px;
   color: #ffffff;
+  font-family: "BPG Glaho Arial", sans-serif;
 }
 
 .loremi {
+  font-size: 16px;
+  font-family: "BPG Nateli", sans-serif;
   margin-top: 50px;
   margin-left: 240px;
   width: 463px;
@@ -81,6 +88,7 @@ footer .forms {
   background-color: #ffffff;
   font-size: 16px;
   color: #171717;
+  font-family: "BPG Glaho Arial", sans-serif;
 }
 
 .call-mail {
@@ -102,6 +110,7 @@ footer .forms {
   color: #ffffff;
   font-size: 22px;
   margin-left: 35px;
+  font-family: "BPG Glaho Arial", sans-serif;
 }
 
 .mail {
@@ -117,10 +126,12 @@ footer .forms {
   color: #ffffff;
   font-size: 22px;
   margin-left: 35px;
+  font-family: "BPG Glaho Arial", sans-serif;
 }
 
 .lower-footer span {
   color: #ffffff;
+  font-family: "BPG Glaho Arial", sans-serif;
 }
 
 .upleba {
