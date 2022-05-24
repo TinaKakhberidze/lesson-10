@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 308px;
+  background-color: blue;
+  position: relative;
+}
+.header {
+  font-family: "BPG Glaho Arial";
+  margin-left: 240px;
+  margin-top: 70px;
+  color: #ffffff;
+  font-size: 32px;
+}
+.circles {
+  display: flex;
+  margin-top: 70px;
+}
+
+.circle1 {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.circle2 {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  margin-right: 15px;
+  opacity: 0.3;
+}
+.circle3 {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  margin-right: 110px;
+  opacity: 0.3;
+}
+.parent {
+  font-family: "BPG Nateli";
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 200px;
+  margin: 0 240px;
+}
+.box img {
+  position: relative;
+  width: 463px;
+  height: 420px;
+}
+.image-two {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+h4 {
+  position: absolute;
+  bottom: 24px;
+}
+.text2 {
+  font-family: "BPG Glaho Arial";
+  position: absolute;
+  bottom: 73px;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+.box h4 {
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #171717;
+  width: 443px;
+  height: 125px;
+  text-align: center;
+  margin: 0 10px;
+  padding: 45px 25px;
+}
+.projects a {
+  font-family: "BPG Glaho Arial";
+  color: #171717;
+  font-size: 16px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  margin-right: 70px;
+  width: 145px;
+  height: 22px;
+}
+
+.projects ::before {
+  content: "|";
+  margin-right: 10px;
+}
