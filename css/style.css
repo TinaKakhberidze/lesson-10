@@ -64,30 +64,29 @@ header {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 200px;
   margin: 0 240px;
 }
 .box img {
+  top: -100px;
   position: relative;
   width: 463px;
   height: 420px;
 }
-.image-two {
-  position: absolute;
-  bottom: 50px;
+#image-two {
+  top: -150px;
   margin-left: 25px;
   margin-right: 25px;
 }
 h4 {
   position: absolute;
-  bottom: 24px;
+  bottom: 120px;
 }
 .text2 {
   font-family: "BPG Glaho Arial";
   position: absolute;
-  bottom: 73px;
+  bottom: 170px;
   opacity: 0.8;
-  margin-left: 10px;
+  left: 490px;
 }
 .box h4 {
   background-color: #ffffff;
