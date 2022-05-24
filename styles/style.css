@@ -32,7 +32,6 @@ h2 {
 .partners {
   margin-bottom: 60px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .logo {
@@ -45,7 +44,7 @@ h2 {
   font-size: 16px;
 }
 .circles {
-  margin-right: 241px;
+  margin-left: 1143px;
 }
 .circle {
   margin-left: 20px;
