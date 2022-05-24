@@ -104,7 +104,6 @@ h4 {
   font-family: "BPG Glaho Arial";
   color: #171717;
   font-size: 16px;
-  position: fixed;
   right: 50px;
   bottom: 50px;
   margin-right: 70px;
@@ -115,4 +114,8 @@ h4 {
 .projects ::before {
   content: "|";
   margin-right: 10px;
+}
+h5 {
+  margin-top: 400px;
+  margin-left: 1500px;
 }
