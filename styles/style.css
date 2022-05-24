@@ -7,13 +7,78 @@
 a {
   text-decoration: none;
 }
+section {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section_container {
+  margin-left: 240px;
+}
+.logos {
+  display: grid;
+  max-width: 707px;
+  width: 100%;
+  max-height: 296px;
+  height: 296px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  margin-left: 269px;
+}
+h2 {
+  font-size: 32px;
+}
+.partners {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 219px;
+  height: 82px;
+}
+.partners_p {
+  width: 463px;
+  height: 99px;
+  font-size: 16px;
+}
+.circles {
+  margin-right: 241px;
+}
+.circle {
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0a22f4;
+  opacity: 0.3;
+  display: inline-block;
+}
+.circle:first-child {
+  opacity: 1;
+  margin: 0;
+}
+.logos_container {
+  display: flex;
+  margin-bottom: 180px;
+}
+a {
+  text-decoration: none;
+}
 
 .container {
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
 }
-
+footer {
+  background-color: #0a22f4;
+}
+.upper-footer {
+  border-bottom: 1px solid white;
+}
 footer {
   background-color: #0a22f4;
 }
@@ -30,9 +95,10 @@ footer {
   background-color: transparent;
   border: none;
   margin-bottom: 40px;
+  border-bottom: 1px solid grey;
+}
   border-bottom: 1px solid white;
 }
-
 .form-fields textarea {
   font-size: 16px;
   font-family: "BPG Glaho Arial", sans-serif;
@@ -89,6 +155,7 @@ footer .forms {
   font-size: 16px;
   color: #171717;
   font-family: "BPG Glaho Arial", sans-serif;
+  font-weight: bolder;
 }
 
 .call-mail {
@@ -157,4 +224,8 @@ footer .forms {
 .lower-footer {
   margin-top: 50px;
   padding-bottom: 50px;
+}
+textarea::placeholder,
+input::placeholder {
+  color: white;
 }
