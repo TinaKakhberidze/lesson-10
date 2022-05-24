@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #0a22f4;
+}
+
+.upper-footer {
+  border-bottom: 1px solid white;
+}
+
+.form-fields input {
+  font-size: 16px;
+  font-family: "BPG Glaho Arial", sans-serif;
+  width: 463px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 40px;
+  border-bottom: 1px solid white;
+}
+
+.form-fields textarea {
+  font-size: 16px;
+  font-family: "BPG Glaho Arial", sans-serif;
+  width: 463px;
+  height: 140px;
+  background-color: transparent;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  display: block;
+}
+
+footer .kontakti {
+  padding-top: 275px;
+  margin-left: 240px;
+  width: 162px;
+  height: 38px;
+  color: #ffffff;
+  font-family: "BPG Glaho Arial", sans-serif;
+}
+
+.loremi {
+  font-size: 16px;
+  font-family: "BPG Nateli", sans-serif;
+  margin-top: 50px;
+  margin-left: 240px;
+  width: 463px;
+  color: #ffffff;
+}
+
+iframe {
+  width: 463px;
+  height: 197px;
+  margin-top: -140px;
+  margin-left: 240px;
+}
+
+footer .forms {
+  height: 300px;
+  /* display: inline-block; */
+  margin-left: 1200px;
+  margin-top: -100px;
+}
+
+.gilaki {
+  display: inline-block;
+  margin-left: 1520px;
+  margin-top: 120px;
+  width: 151px;
+  height: 55px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #171717;
+  font-family: "BPG Glaho Arial", sans-serif;
+}
+
+.call-mail {
+  display: flex;
+  margin-top: -120px;
+  margin-bottom: 200px;
+}
+
+.call {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  padding: 22px;
+  margin-left: 240px;
+  background-color: #ffffff;
+}
+
+.call span {
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 35px;
+  font-family: "BPG Glaho Arial", sans-serif;
+}
+
+.mail {
+  display: flex;
+  margin-left: 300px;
+  width: 70px;
+  height: 70px;
+  padding: 22px 22px;
+  background-color: #ffffff;
+}
+
+.mail span {
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 35px;
+  font-family: "BPG Glaho Arial", sans-serif;
+}
+
+.lower-footer span {
+  color: #ffffff;
+  font-family: "BPG Glaho Arial", sans-serif;
+}
+
+.upleba {
+  font-size: 16px;
+  margin-left: 240px;
+}
+
+.damzadebulia {
+  font-size: 13px;
+  padding-left: 900px;
+}
+
+.guli {
+  width: 26px;
+  height: 26px;
+}
+
+.footer-logo {
+  height: 35px;
+  padding-left: 30px;
+}
+
+.lower-footer {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
